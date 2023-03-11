@@ -169,7 +169,7 @@ export class SlimeEnemyEntity extends PathEnemyEntity {
  * An Fly enemy entity
  * follow a horizontal path defined by the box size in Tiled
  */
-export class bird0001 extends PathEnemyEntity {
+export class FlyEnemyEntity extends PathEnemyEntity {
     /**
      * constructor
      */
@@ -179,7 +179,7 @@ export class bird0001 extends PathEnemyEntity {
 
         // set a renderable
         this.renderable = game.texture.createAnimationFromName([
-            "fly_normal.png", "fly_fly.png", "fly_dead.png"
+            "bird0001.png"
         ]);
 
         // custom animation speed ?
@@ -188,9 +188,9 @@ export class bird0001 extends PathEnemyEntity {
         }
 
         // walking animatin
-        this.renderable.addAnimation ("walk", ["fly_normal.png", "fly_fly.png"]);
+        this.renderable.addAnimation ("walk", ["bird0001.png"]);
         // dead animatin
-        this.renderable.addAnimation ("dead", ["fly_dead.png"]);
+        this.renderable.addAnimation ("dead", ["bird0001.png"]);
 
         // set default one
         this.renderable.setCurrentAnimation("walk");
