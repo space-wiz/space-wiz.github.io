@@ -78,10 +78,10 @@
     {
       "filename": "bird0001.png",
       "frame": {
-        "x": 160,
-        "y": 100,
-        "w": 75,
-        "h": 96
+        "x": 331,
+        "y": 194,
+        "w": 94,
+        "h": 57
       },
       "rotated": false,
       "trimmed": false,
