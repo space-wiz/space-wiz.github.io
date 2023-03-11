@@ -140,7 +140,7 @@ export class SlimeEnemyEntity extends PathEnemyEntity {
 
         // set a renderable
         this.renderable = game.texture.createAnimationFromName([
-            "slime_normal.png", "slime_walk.png", "slime_dead.png"
+            "face0002.png"
         ]);
 
         // custom animation speed ?
@@ -149,9 +149,9 @@ export class SlimeEnemyEntity extends PathEnemyEntity {
         }
 
         // walking animatin
-        this.renderable.addAnimation ("walk", ["slime_normal.png", "slime_walk.png"]);
+        this.renderable.addAnimation ("walk", ["face0002.png"]);
         // dead animatin
-        this.renderable.addAnimation ("dead", ["slime_dead.png"]);
+        this.renderable.addAnimation ("dead", ["face0002.png"]);
 
         // set default one
         this.renderable.setCurrentAnimation("walk");
