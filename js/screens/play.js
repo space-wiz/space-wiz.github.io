@@ -19,7 +19,7 @@ class PlayScreen extends me.Stage {
         if (typeof this.HUD === "undefined") {
             this.HUD = new UIContainer();
         }
-        me.game.world.gravity.y = 0.1;
+        me.game.world.gravity.y = 0.35;
         me.game.world.addChild(this.HUD);
 
         // display if debugPanel is enabled or on mobile
