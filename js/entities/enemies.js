@@ -169,7 +169,7 @@ export class SlimeEnemyEntity extends PathEnemyEntity {
  * An Fly enemy entity
  * follow a horizontal path defined by the box size in Tiled
  */
-export class FlyEnemyEntity extends PathEnemyEntity {
+export class bird0001 extends PathEnemyEntity {
     /**
      * constructor
      */
