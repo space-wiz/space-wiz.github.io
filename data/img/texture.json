@@ -51,6 +51,31 @@
       }
     },
     {
+      "filename": "face0001.png",
+      "frame": {
+        "x": 160,
+        "y": 100,
+        "w": 75,
+        "h": 96
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 0,
+        "y": 0,
+        "w": 75,
+        "h": 96
+      },
+      "sourceSize": {
+        "w": 75,
+        "h": 96
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
+    },
+    {
       "filename": "walk0001.png",
       "frame": {
         "x": 160,
