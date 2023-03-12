@@ -49,14 +49,38 @@
         "x": 0.5,
         "y": 1.0
       }
+    }, {
+      "filename": "bird0001.png",
+      "frame": {
+        "x": 331,
+        "y": 194,
+        "w": 94,
+        "h": 57
+      },
+      "rotated": false,
+      "trimmed": false,
+      "spriteSourceSize": {
+        "x": 331,
+        "y": 194,
+        "w": 94,
+        "h": 57
+      },
+      "sourceSize": {
+        "w": 94,
+        "h": 57
+      },
+      "pivot": {
+        "x": 0.5,
+        "y": 1.0
+      }
     },
     {
-      "filename": "face0002.png",
+      "filename": "coin0001.png",
       "frame": {
-        "x": 330,
-        "y": 133,
-        "w": 41,
-        "h": 34
+        "x": 367,
+        "y": 326,
+        "w": 32,
+        "h": 22
       },
       "rotated": false,
       "trimmed": false,
