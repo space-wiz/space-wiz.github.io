@@ -75,12 +75,12 @@
       }
     },
     {
-      "filename": "coin0001.png",
+      "filename": "face0002.png",
       "frame": {
-        "x": 367,
-        "y": 326,
-        "w": 32,
-        "h": 22
+        "x": 330,
+        "y": 133,
+        "w": 41,
+        "h": 34
       },
       "rotated": false,
       "trimmed": false,
