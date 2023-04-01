@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.0" orientation="orthogonal" renderorder="right-down" width="54" height="30" tilewidth="35" tileheight="35" infinite="0" backgroundcolor="#d0f4f7" nextlayerid="12" nextobjectid="36">
+<map version="1.10" tiledversion="1.10.0" orientation="orthogonal" renderorder="right-down" width="54" height="30" tilewidth="35" tileheight="35" infinite="0" backgroundcolor="#d0f4f7" nextlayerid="12" nextobjectid="73">
  <tileset firstgid="1" source="tileset.tsx"/>
  <imagelayer id="1" name="Background" y="538" offsetx="24.5009" offsety="23.4809">
   <image source="../img/background.png" width="1024" height="512"/>
@@ -41,8 +41,24 @@
    </properties>
   </object>
  </objectgroup>
- <objectgroup color="#ffff00" id="6" name="Coins">
-  <object id="3" name="CoinEntity" x="840" y="805" width="35" height="35"/>
+ <objectgroup color="#ffff00" id="6" name="Coins" offsetx="1244.65" offsety="1646.46">
+  <object id="3" name="CoinEntity" x="-375.152" y="-858.636" width="35" height="35"/>
+  <object id="39" gid="214" x="238.35" y="-747.46" width="70" height="70"/>
+  <object id="42" gid="214" x="64.35" y="-659.46" width="70" height="70"/>
+  <object id="43" gid="214" x="68.35" y="-733.46" width="70" height="70"/>
+  <object id="44" gid="214" x="58.35" y="-793.46" width="70" height="70"/>
+  <object id="45" gid="197" x="56.35" y="-865.46" width="70" height="70"/>
+  <object id="46" gid="78" x="-193.65" y="-597.46" width="70" height="70"/>
+  <object id="51" gid="79" x="108.35" y="-621.46" width="70" height="70"/>
+  <object id="52" gid="79" x="-333.65" y="-591.46" width="70" height="70"/>
+  <object id="53" gid="79" x="-339.65" y="-601.46" width="70" height="70"/>
+  <object id="54" gid="199" x="232.35" y="-737.46" width="70" height="70"/>
+  <object id="55" gid="199" x="270.35" y="-803.46" width="70" height="70"/>
+  <object id="56" gid="199" x="270.35" y="-803.46" width="70" height="70"/>
+  <object id="57" gid="199" x="306.35" y="-869.46" width="70" height="70"/>
+  <object id="60" gid="108" x="536.35" y="-881.46" width="70" height="70"/>
+  <object id="61" gid="31" x="380.35" y="-909.46" width="70" height="70"/>
+  <object id="62" gid="31" x="448.35" y="-907.46" width="70" height="70"/>
  </objectgroup>
  <objectgroup color="#ff0000" id="7" name="Slimes">
   <object id="5" name="SlimeEntity" x="140" y="595" width="210" height="35">
@@ -112,5 +128,17 @@
   <object id="31" x="420" y="980" width="70" height="35"/>
   <object id="33" x="630" y="980" width="70" height="35"/>
   <object id="35" x="840" y="840" width="70" height="140"/>
+  <object id="69" type="platform" x="1742" y="786">
+   <polyline points="-110,-72 29,-72"/>
+  </object>
+  <object id="70" x="1550" y="712">
+   <polygon points="0,0 64,-2 62,64"/>
+  </object>
+  <object id="71" x="1516" y="770">
+   <polygon points="0,0 66,2 66,70 -2,22"/>
+  </object>
+  <object id="72" x="1478" y="868">
+   <polygon points="0,0 0,-34 70,-28 70,42"/>
+  </object>
  </objectgroup>
 </map>
