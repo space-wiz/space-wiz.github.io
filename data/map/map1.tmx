@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<map version="1.10" tiledversion="1.10.0" orientation="orthogonal" renderorder="right-down" width="54" height="30" tilewidth="35" tileheight="35" infinite="0" backgroundcolor="#d0f4f7" nextlayerid="12" nextobjectid="73">
+<map version="1.10" tiledversion="1.10.0" orientation="orthogonal" renderorder="right-down" width="54" height="30" tilewidth="35" tileheight="35" infinite="0" backgroundcolor="#d0f4f7" nextlayerid="12" nextobjectid="74">
  <tileset firstgid="1" source="tileset.tsx"/>
  <imagelayer id="1" name="Background" y="538" offsetx="24.5009" offsety="23.4809">
   <image source="../img/background.png" width="1024" height="512"/>
@@ -59,6 +59,7 @@
   <object id="60" gid="108" x="536.35" y="-881.46" width="70" height="70"/>
   <object id="61" gid="31" x="380.35" y="-909.46" width="70" height="70"/>
   <object id="62" gid="31" x="448.35" y="-907.46" width="70" height="70"/>
+  <object id="73" name="CoinEntity" x="-76.15" y="-721.96" width="35" height="35"/>
  </objectgroup>
  <objectgroup color="#ff0000" id="7" name="Slimes">
   <object id="5" name="SlimeEntity" x="140" y="595" width="210" height="35">
